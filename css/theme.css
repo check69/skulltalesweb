@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+	float: center;
+}
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+	align: center;
+	position: fixed;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+	margin-left: 10px;
+    text-decoration: none;
+	background-color: #FCDE85;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: center;
+    background-color: #E3AB02;
+    color: black;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #E3AB02;
+    color: black;
+}
+/* Center */	
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+	background-color: #000000;
+	color: #F3F3F3;
+}
+
+.title {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	background-color: #000000;
+	color: #FFE599;
+}
+
+.main {
+	float: center;
+    padding-top: 50px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
